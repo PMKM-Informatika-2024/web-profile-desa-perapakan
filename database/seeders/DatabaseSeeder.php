@@ -19,8 +19,8 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::create([
-            'username' => 'admin_pemangkat-kota',
-            'password' =>bcrypt('PemangkatKota2024!')
+            'username' => 'admin_perapakan',
+            'password' =>bcrypt('Perapakan2024!')
         ]);
         Profildesa::create([
             'sejarah_desa' => 'Sejarah singkat desa ini bermula dari...',
@@ -85,7 +85,7 @@ class DatabaseSeeder extends Seeder
             'jumlah_rt' => 0,
             'jumlah_rw' => 0,
 
-            'peta_desa' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17596.69517182833!2d108.89841217452445!3d0.692050119300173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e305ab91cca753%3A0x10d868d0d0d897e3!2sSungai%20Keran%20Village%20Office!5e0!3m2!1sen!2sid!4v1728940315050!5m2!1sen!2sid" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+            'peta_desa' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63823.744903450046!2d108.98148609661739!3d1.1717105971577255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e49d17c69b9e85%3A0x2474ac85c9b4f74b!2sPerapakan%2C%20Kec.%20Pemangkat%2C%20Kabupaten%20Sambas%2C%20Kalimantan%20Barat!5e0!3m2!1sid!2sid!4v1733378395194!5m2!1sid!2sid" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
         ]);
         Kelolakontak::create([
             'no_hp'=>'081234567890',
